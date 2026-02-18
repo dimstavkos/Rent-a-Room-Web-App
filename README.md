@@ -78,7 +78,7 @@ The interface adapts dynamically based on user roles:
 - Administrators have extended management capabilities.
 
    
-  <img src="docs/images/ManageProperties.png" width="45%" />   <img src="docs/images/SearchResults.png" width="45%" />   
+  <img src="docs/images/ManageProperties.png" width="45%" />   <img src="docs/images/Search.png" width="45%" />   
 The frontend communicates exclusively with the backend through structured API calls, maintaining a clean separation between presentation and business logic
 
 ## Recommendation System
