@@ -1,15 +1,14 @@
-# Rent-a-House - A Web Application for Property Rentals
-The project was developed as part of a university course with a focus on applying practical software engineering principles.
+# Rent-a-House - A Full-Stack Web Application for Property Rentals
+
+
 ## Overview
 
-This project implements a full-stack web application for property rentals, inspired by modern accommodation platforms. The system enables users to act as hosts or renters, supporting property management, booking workflows, secure authentication, messaging, and personalized recommendations.
+This project was developed as part of a university course with a focus on applying practical software engineering principles. It implements a full-stack web application for property rentals, inspired by modern accommodation platforms. The system enables users to act as hosts or renters, supporting property management, booking workflows, secure authentication, messaging, and personalized recommendations.
 
 The application is structured as a three-tier system:
 
 - A relational database for data persistence
-
 - A RESTful backend API handling business logic and security
-
 - A frontend application for user interaction
 
 Special emphasis was placed on database schema design, layered backend architecture, role-based authorization, and controlled API data exposure.
@@ -52,9 +51,7 @@ The backend was implemented using FastAPI and follows a layered architectural ap
 The main layers include:
 
 - Routing layer (HTTP request handling)
-
 - Controller layer (business logic)
-
 - Model layer (database interaction via SQLAlchemy)
 
 Pydantic schemas are used to validate and serialize responses, preventing uncontrolled exposure of database objects.
@@ -79,14 +76,12 @@ The frontend was developed using Vue.js 3 with the Composition API. State manage
 The interface adapts dynamically based on user roles:
 
 - Hosts can manage property listings and review booking requests.
-
 - Renters can search properties, submit booking requests, and manage reservations.
-
 - Administrators have extended management capabilities.
 
    
   <img src="docs/images/ManageProperties.png" width="45%" />   <img src="docs/images/Search.png" width="45%" />   
-The frontend communicates exclusively with the backend through structured API calls, maintaining a clean separation between presentation and business logic
+The frontend communicates exclusively with the backend through structured API calls, maintaining a clean separation between presentation and business logic.
 
 ## Recommendation System
 The platform incorporates a personalized recommendation system based on collaborative filtering using matrix factorization.
@@ -123,7 +118,7 @@ cp .env.example .env
 uvicorn main:app --reload
 ```
 
-The backend API will run at: http://127.0.0.1:8000
+The backend API runs locally at: http://127.0.0.1:8000
 
 
 ### Frontend
