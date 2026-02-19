@@ -25,7 +25,7 @@ The platform supports three user roles: administrator, host, and renter, each wi
 | Backend | FastAPI, MySQL, SQLAlchemy |
 | Frontend | Vue.js 3, Pinia |
 | Auth & Security | JWT |
-| Recomendation System | Matrix Factorization |
+| Recommendation System | Matrix Factorization |
 
 
 ### Key Features
