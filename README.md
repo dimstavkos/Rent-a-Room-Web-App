@@ -71,7 +71,7 @@ This mechanism ensures that sensitive operations, such as user management or dat
 
 ## Frontend Implementation
 
-The frontend was developed using Vue.js 3 with the Composition API. State management is handled using Pinia to centralize authentication state and user data.
+The frontend was developed using Vue.js 3 with the Composition API. State management is handled using Pinia to centralize authentication state and user data. The UI structure was based on an open-source template and adapted to support the application’s functional requirements.
 
 The interface adapts dynamically based on user roles:
 
