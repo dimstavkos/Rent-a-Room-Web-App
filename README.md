@@ -115,7 +115,6 @@ This script populates the database with sample users, properties, bookings, and 
 ```
 cd backend
 pip install -r requirements.txt
-cp .env.example .env
 uvicorn main:app --reload
 ```
 
