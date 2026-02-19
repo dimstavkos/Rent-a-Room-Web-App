@@ -100,14 +100,15 @@ This component integrates concepts from linear algebra and numerical optimizatio
 ### 1. Database Setup
 
 - Create a MySQL database.
-- Import or generate the schema using the provided model.
-- Configure database credentials in the `.env` file inside the backend directory.
+- Use the provided database model (database/model_rentahouse.mwb) to generate the schema via MySQL Workbench or manually create the tables based on the schema design.
+- Update database credentials in `backend/.env`.
+- Seed the database with initial data.
 
 ```
 cd backend
 python seeder.py
 ```
-
+This script populates the database with sample users, properties, bookings, and ratings required for testing the application.
 
 ### Backend
 
